@@ -5,7 +5,7 @@
 # Site
 title: 不吃香菜
 subtitle:
-description: 不吃香菜的知识博客
+description: 每天积累一点点，每天进步一点点。
 keywords: 机器学习、自然语言处理、java、mysql、redis
 author: yusheng
 language: zh-Hans
@@ -35,13 +35,13 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
   
 # Home page setting
@@ -73,7 +73,14 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: cactus
+theme: next
+
+#search 
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
