@@ -4,7 +4,7 @@
 
 # Site
 title: 不吃香菜
-subtitle:
+subtitle: 每天积累一点点，每天进步一点点
 description: 每天积累一点点，每天进步一点点。
 keywords: 机器学习、自然语言处理、java、mysql、redis
 author: yusheng
@@ -86,5 +86,14 @@ search:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/yusheng-ccnu/yusheng-ccnu.github.io.git
+  repo: 
+    github: https://github.com/yusheng-ccnu/yusheng-ccnu.github.io.git
+    coding: https://git.coding.net/ys-ccnu/ys-ccnu.coding.me.git
   branch: master
+
+Plugins:
+  hexo-generator-sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
